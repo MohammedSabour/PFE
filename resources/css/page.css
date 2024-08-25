@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  /* Style de l'en-tête de la table */
+  table thead th {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  /* Style des cellules de données */
+  table tbody td {
+    padding: 8px;
+  }
+
+  /* Style des lignes impaires */
+  table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+
+  /* Style du titre */
+  h2 {
+    color: #333;
+  }
+
+  /* Style du message "Aucun rendez-vous disponible." */
+  p {
+    color: #999;
+  }
+
+  /* Style des liens dans la table */
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
